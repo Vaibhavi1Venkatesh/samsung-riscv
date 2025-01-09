@@ -18,6 +18,13 @@ This image shows the disassembly of a compiled RISC-V program in a terminal usin
 An enlarged view of a terminal running the objdump command on a RISC-V program.  
  ![riscvtask1](https://github.com/user-attachments/assets/9be9b746-7ee4-45fe-8b51-d40b3b194af1)
 
+ - `task1`: C based lab screenshots.
+ ### C outputs
+ Screenshot of a terminal session in a VirtualBox environment running Ubuntu, showing the execution of a C program that calculates the sum of numbers from 1 to 5. The project directory structure contains relevant C source files (.c) and associated files
+  
+![newctask1](https://github.com/user-attachments/assets/bf35f697-bec6-4f20-8f3e-8bac6a699b6d)
+
+
 # Samsung RISC-V Task 2
 
 This repository contains a simple RISC-V program to compute the sum of numbers from 1 to a given limit. It includes source code, scripts for compilation and execution, and documentation for setting up and using the RISC-V toolchain and Spike simulator.By using "Ofast"
@@ -38,8 +45,3 @@ This repository contains a simple RISC-V program to compute the sum of numbers f
 
 
 
-- `task1`: C based lab screenshots.
- ### C outputs
- Screenshot of a terminal session in a VirtualBox environment running Ubuntu, showing the execution of a C program that calculates the sum of numbers from 1 to 5. The project directory structure contains relevant C source files (.c) and associated files
-  
-![newctask1](https://github.com/user-attachments/assets/bf35f697-bec6-4f20-8f3e-8bac6a699b6d)
