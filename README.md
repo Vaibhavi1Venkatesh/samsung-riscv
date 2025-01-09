@@ -3,7 +3,7 @@
 
 # Samsung RISC-V Task 1
 
-This repository contains the work for Task 1 of the RISC-V Talent Development Program.
+This repository contains the work for Tasks of the RISC-V Talent Development Program.
 
 ## Contents
 - `task1`: RISC-V based screenshots.
@@ -17,6 +17,25 @@ This image shows the disassembly of a compiled RISC-V program in a terminal usin
 ### Terminal View of objdump
 An enlarged view of a terminal running the objdump command on a RISC-V program.  
  ![riscvtask1](https://github.com/user-attachments/assets/9be9b746-7ee4-45fe-8b51-d40b3b194af1)
+
+# Samsung RISC-V Task 2
+
+This repository contains a simple RISC-V program to compute the sum of numbers from 1 to a given limit. It includes source code, scripts for compilation and execution, and documentation for setting up and using the RISC-V toolchain and Spike simulator.By using "Ofast"
+## task 2:using Ofast
+![ofasttask23](https://github.com/user-attachments/assets/0134b8a6-f265-49b1-93bf-e73ab331afc0)
+![ofasttask21](https://github.com/user-attachments/assets/929d4332-d749-4f2b-a1fb-87bddc9fe453)
+![ofasttask2a2assembly](https://github.com/user-attachments/assets/b7c78b0b-4379-47f3-aa20-823a579a0dad)
+
+## task 2:using O1
+This repository contains a simple RISC-V program to compute the sum of numbers from 1 to a given limit. It includes source code, scripts for compilation and execution, and documentation for setting up and using the RISC-V toolchain and Spike simulator.By using "O1"
+
+![o1task2ss](https://github.com/user-attachments/assets/00ef31d0-5999-4351-8d92-89b7a16fcadd)
+![task22c](https://github.com/user-attachments/assets/622f3fed-8fd5-427c-806d-6a48e9ccdc63)
+![o1task2assembly](https://github.com/user-attachments/assets/7ec3695a-16a0-4364-adcd-c181189337e6)
+![assemblytask2](https://github.com/user-attachments/assets/077e37b2-eafe-4f69-bfd0-b1b53978dd45)
+![o1task2assembly - Copy](https://github.com/user-attachments/assets/84d90257-37f1-4af4-83f8-ff4cc889435e)
+
+
 
 
 - `task1`: C based lab screenshots.
