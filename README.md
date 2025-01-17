@@ -60,97 +60,94 @@ Used for arithmetic and logic operations where all operands are in registers.
 | 25–31 | funct7     | Function code (extension)               |
 
 **Example:** `add x1, x2, x3`
-
-```bash
 opcode: 0110011
 funct3: 000
 funct7: 0000000
 
-I-type: Immediate type
+### I-type: Immediate type
 Used for arithmetic, logical, load, and immediate operations.
 
-Fields:
-
-Bits	Field	Description
-0–6	opcode	Operation code
-7–11	rd	Destination register
-12–14	funct3	Function code (operation)
-15–19	rs1	Source register 1
-20–31	imm[11:0]	Immediate value (12 bits)
-Example: addi x1, x2, -5
-
-bash
-Copy
-Edit
+**Fields**
+| Bits  | Field      | Description                              |
+|-------|------------|------------------------------------------|
+| 0–6   | opcode     | Operation code                           |
+| 7–11  | rd         | Destination register                     |
+| 12–14 | funct3     | Function code (operation)                |
+| 15–19 | rs1        | Source register 1                        |
+| 20–31 | imm[11:0]  | Immediate value (12 bits)                |
+**Example:** `addi x1, x2, -5`
 opcode: 0010011
 funct3: 000
-S-type: Store type
+### S-type: Store type
 Used for store operations (e.g., storing data to memory).
 
-Fields:
-
-Bits	Field	Description
-0–6	opcode	Operation code
-7–11	imm[4:0]	Immediate (low bits)
-12–14	funct3	Function code (operation)
-15–19	rs1	Source register 1 (address)
-20–24	rs2	Source register 2 (data)
-25–31	imm[11:5]	Immediate (high bits)
-Example: sw x2, 8(x1)
+**Fields:**
+| Bits  | Field      | Description                              |
+|-------|------------|------------------------------------------|
+| 0–6   | opcode     | Operation code                           |
+| 7–11  | rd         | Destination register                     |
+| 12–14 | funct3     | Function code (operation)                |
+| 15–19 | rs1        | Source register 1                        |
+| 20–24 | rs2        | Source register 2                        |
+| 25–31 | imm[11:5]  | Immediate (high     bits)                |
+**Example:** sw x2, 8(x1)
 
 bash
 Copy
 Edit
 opcode: 0100011
 funct3: 010
-B-type: Branch type
+### B-type: Branch type
 Used for conditional branches.
 
-Fields:
-
-Bits	Field	Description
-0–6	opcode	Operation code
-7–11	imm[11]	Immediate bit 11 (sign bit)
-12–14	funct3	Function code (operation)
-15–19	rs1	Source register 1
-20–24	rs2	Source register 2
-25–30	imm[10:5]	Immediate bits 10–5
-31	imm[12]	Immediate bit 12
-Example: beq x1, x2, offset
+**Fields:**
+ | Bits  | Field      | Description                              |
+|-------|------------|------------------------------------------|
+| 0–6   | opcode     | Operation code                           |
+| 7–11  |imm[11]	    |Immediate bit 11 (sign bit)   |
+| 12–14 | funct3     | Function code (operation)                |
+| 15–19 | rs1        | Source register 1                        |
+| 20–24 | rs2        | Source register 2                        |
+| 25–30 | imm[10:5]  | Immediate bits 10-5                      |
+| 31    | imm[12]    | Immediate bit 12                         |
+**Example:** beq x1, x2, offset
 
 bash
 Copy
 Edit
 opcode: 1100011
 funct3: 000
-U-type: Upper immediate type
+### U-type: Upper immediate type
 Used for operations involving upper 20 bits of immediate data.
 
-Fields:
+**Fields:**
+| Bits  | Field      | Description                             |
+|-------|------------|------------------------------------------|
+| 0–6   | opcode     | Operation code                           |
+| 7–11  |rd     	    |	Destination register             |
+| 12–31 |imm[31:12]  | immediate value (upper 20 bits)          |
 
-Bits	Field	Description
-0–6	opcode	Operation code
-7–11	rd	Destination register
-12–31	imm[31:12]	Immediate value (upper 20 bits)
-Example: lui x1, 0x12345
+**Example:** lui x1, 0x12345
 
 bash
 Copy
 Edit
 opcode: 0110111
-J-type: Jump type
+
+### J-type: Jump type
 Used for jump operations.
 
-Fields:
+**Fields:**
+ | Bits  | Field      | Description                              |
+|-------|------------|------------------------------------------|
+| 0–6   | opcode     | Operation code                           |
+| 7–11  |rd          |	Destination register                     |
+| 12–19 |imm[19:12]  |	Immediate bits 19–12                     |
+| 20    |imm[11]     |Immediate bit 11                          |
+| 21–30 | imm[10:1]  |Immediate bit 20 (sign bit)               |
+| 31    | imm[20]    |Immediate bit 20 (sign bit)               |
 
-Bits	Field	Description
-0–6	opcode	Operation code
-7–11	rd	Destination register
-12–19	imm[19:12]	Immediate bits 19–12
-20	imm[11]	Immediate bit 11
-21–30	imm[10:1]	Immediate bits 10–1
-31	imm[20]	Immediate bit 20 (sign bit)
-Example: jal x1, offset
+**Example:** jal x1, offset
 
 bash
 Copy
