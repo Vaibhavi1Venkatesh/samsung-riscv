@@ -1,3 +1,86 @@
+# Samsung-riscv
+This is a VSD-Samsung-RISCV-Program. The instructor for this internship is Kunal Ghosh Sir.
+
+# Basic Details
+Name: Vaibhavi Venkatesh  
+College: RV Institute of Technology and Management  
+
+<details>
+<summary><h2>Task 1<h2></summary>
+<br>
+Install all the essential tools required such as Ubuntu on VMBox. Perform a sum to n numbers C program and generate the RISC-V object dump along with -O1 and Ofast compiler optimization flags. 
+
+  <h4>Virtual Machine Working:</h4>
+![task1 1 1](https://github.com/user-attachments/assets/c6a7400e-d734-486b-9658-4b261421e2dc)
+
+
+
+<h4>Code for sum upto n numbers C program:</h4>
+
+![Screenshot 2025-01-20 134026](https://github.com/user-attachments/assets/5f413315-fbc8-48d9-b6a1-f048246088cc)
+
+
+<h4>Sum upto n numbers C program output:</h4>
+
+![newctask1](https://github.com/user-attachments/assets/0e29ae1b-e8de-4467-9f8e-01a6cbfd7630)
+
+
+<h4>Sum upto n numbers C program using RISC-V:</h4>
+
+![riscvcode](https://github.com/user-attachments/assets/7fe08778-e144-4bf1-888a-196874c0b089)
+
+<h4>Sum upto n numbers C program using RISC-V O1 optimization:</h4>
+
+![riscv1](https://github.com/user-attachments/assets/d72e20b8-ff21-4457-b203-70c20d434685)
+
+<h4>Sum upto n numbers C program using RISC-V Ofast optimization:</h4>
+
+![mainriscv](https://github.com/user-attachments/assets/4a12fdf2-25e1-4502-a498-678b109654c8)
+![ssriscv](https://github.com/user-attachments/assets/4b729cbb-04b1-4e1a-8a5e-4efc9dd774e7)
+
+<details>
+<summary><h2>Task 2<h2></summary>
+<br>
+Run SPIKE simulation. A factorial C program is compiled and the same steps is followed to run object dump for each optimization flags and SPIKE simulation. 
+
+<h4>SPIKE simulation of sum upto n numbers C program - O1 optimization:</h4>
+
+![Simulation_O1 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/Simulation_O1.png)
+
+<h4>SPIKE simulation of sum upto n numbers C program - Ofast optimization:</h4>
+
+![Simulation_Ofast Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/Simulation_Ofast.png)
+
+<h4>Factorial C program output:</h4>  
+
+![fact_op Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_op.png)
+
+<h4>Factorial C program using RISC-V:</h4>
+
+![fact_riscv Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_riscv.png)
+
+<h4>Factorial C program using RISC-V O1 optimization:</h4>
+
+![fact_riscv_mainaddO1 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_riscv_mainaddO1.png)
+
+<h4>Factorial C program using RISC-V Ofast optimization:</h4>
+
+![fact_riscv_mainaddOfast Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_riscv_mainaddOfast.png)
+
+<h4>SPIKE simulation of factorial C program - O1 optimization:</h4>
+
+![fact_spike_O1 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_spike_O1.png)
+
+<h4>SPIKE simulation of factorial C program - Ofast optimization:</h4>
+
+![fact_spike_Ofast Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_spike_Ofast.png)
+
+</details>
+
+
+
+
+
 # samsung-riscv
  Welcome to the Samsung RISC-V  repository. This repository contains my work for the first task of the program. The task involves setting up and using the RISC-V toolchain to compile and run simple programs, as well as documenting the process.
 
