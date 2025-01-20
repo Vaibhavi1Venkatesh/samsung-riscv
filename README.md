@@ -38,6 +38,9 @@ Install all the essential tools required such as Ubuntu on VMBox. Perform a sum 
 ![mainriscv](https://github.com/user-attachments/assets/4a12fdf2-25e1-4502-a498-678b109654c8)
 ![ssriscv](https://github.com/user-attachments/assets/4b729cbb-04b1-4e1a-8a5e-4efc9dd774e7)
 
+</details>
+
+
 <details>
 <summary><h2>Task 2<h2></summary>
 <br>
@@ -45,55 +48,36 @@ Run SPIKE simulation. A factorial C program is compiled and the same steps is fo
 
 <h4>SPIKE simulation of sum upto n numbers C program - O1 optimization:</h4>
 
-![Simulation_O1 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/Simulation_O1.png)
+![o1task2ss](https://github.com/user-attachments/assets/00ef31d0-5999-4351-8d92-89b7a16fcadd)
+![task22c](https://github.com/user-attachments/assets/622f3fed-8fd5-427c-806d-6a48e9ccdc63)
 
 <h4>SPIKE simulation of sum upto n numbers C program - Ofast optimization:</h4>
+![ofasttask21](https://github.com/user-attachments/assets/929d4332-d749-4f2b-a1fb-87bddc9fe453)
 
-![Simulation_Ofast Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/Simulation_Ofast.png)
+![assemblytask2](https://github.com/user-attachments/assets/077e37b2-eafe-4f69-bfd0-b1b53978dd45)
 
 <h4>Factorial C program output:</h4>  
 
-![fact_op Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_op.png)
-
+![ofasttask2a2assembly](https://github.com/user-attachments/assets/b7c78b0b-4379-47f3-aa20-823a579a0dad)
 <h4>Factorial C program using RISC-V:</h4>
 
-![fact_riscv Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_riscv.png)
-
+![o1task2assembly](https://github.com/user-attachments/assets/7ec3695a-16a0-4364-adcd-c181189337e6)
 <h4>Factorial C program using RISC-V O1 optimization:</h4>
 
-![fact_riscv_mainaddO1 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_riscv_mainaddO1.png)
+![o1task2ss](https://github.com/user-attachments/assets/00ef31d0-5999-4351-8d92-89b7a16fcadd)
 
 <h4>Factorial C program using RISC-V Ofast optimization:</h4>
 
-![fact_riscv_mainaddOfast Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_riscv_mainaddOfast.png)
-
+![ofasttask21](https://github.com/user-attachments/assets/929d4332-d749-4f2b-a1fb-87bddc9fe453)
 <h4>SPIKE simulation of factorial C program - O1 optimization:</h4>
 
-![fact_spike_O1 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_spike_O1.png)
-
+![o1task2assembly](https://github.com/user-attachments/assets/7ec3695a-16a0-4364-adcd-c181189337e6)
 <h4>SPIKE simulation of factorial C program - Ofast optimization:</h4>
 
-![fact_spike_Ofast Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_spike_Ofast.png)
+![ofasttask23](https://github.com/user-attachments/assets/0134b8a6-f265-49b1-93bf-e73ab331afc0)
+
 
 </details>
-
-
-# Samsung RISC-V Task 2
-
-This repository contains a simple RISC-V program to compute the sum of numbers from 1 to a given limit. It includes source code, scripts for compilation and execution, and documentation for setting up and using the RISC-V toolchain and Spike simulator.By using "Ofast"
-## task 2:using Ofast
-![ofasttask23](https://github.com/user-attachments/assets/0134b8a6-f265-49b1-93bf-e73ab331afc0)
-![ofasttask21](https://github.com/user-attachments/assets/929d4332-d749-4f2b-a1fb-87bddc9fe453)
-![ofasttask2a2assembly](https://github.com/user-attachments/assets/b7c78b0b-4379-47f3-aa20-823a579a0dad)
-
-## task 2:using O1
-This repository contains a simple RISC-V program to compute the sum of numbers from 1 to a given limit. It includes source code, scripts for compilation and execution, and documentation for setting up and using the RISC-V toolchain and Spike simulator.By using "O1"
-
-![o1task2ss](https://github.com/user-attachments/assets/00ef31d0-5999-4351-8d92-89b7a16fcadd)
-![task22c](https://github.com/user-attachments/assets/622f3fed-8fd5-427c-806d-6a48e9ccdc63)
-![o1task2assembly](https://github.com/user-attachments/assets/7ec3695a-16a0-4364-adcd-c181189337e6)
-![assemblytask2](https://github.com/user-attachments/assets/077e37b2-eafe-4f69-bfd0-b1b53978dd45)
-![o1task2assembly - Copy](https://github.com/user-attachments/assets/84d90257-37f1-4af4-83f8-ff4cc889435e)
 
 
 <details>
@@ -337,13 +321,13 @@ Used for jump operations.
 - **funct3**: `000`  
 - **rd**: `00000`  
 - **rs1**: `00001` (ra = x1)
-</details>
-</details>  
-
+  
 ### Screenshots
 ![Screenshot 2025-01-18 001724](https://github.com/user-attachments/assets/a0b4a656-40e2-4717-8150-50e5986d4aa4)
 ![3task](https://github.com/user-attachments/assets/89a44781-650c-410d-af9d-49a89bfea188)
 ![3task15](https://github.com/user-attachments/assets/e15d869f-ed43-4e8b-88c2-f203ecf0d315)
+
+</details>
 
 
 
@@ -413,6 +397,8 @@ A simulation environment (iverilog, gtkwave) is set up and the functional simula
 ![task4 0 xx 3](https://github.com/user-attachments/assets/e5e1d5ed-bfce-4999-bb2a-aa97a7b681bb)
 
 
+
+</details>
 
 
 
