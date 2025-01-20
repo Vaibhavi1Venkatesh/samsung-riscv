@@ -326,8 +326,8 @@ Used for jump operations.
 ![Screenshot 2025-01-18 001724](https://github.com/user-attachments/assets/a0b4a656-40e2-4717-8150-50e5986d4aa4)
 ![3task](https://github.com/user-attachments/assets/89a44781-650c-410d-af9d-49a89bfea188)
 ![3task15](https://github.com/user-attachments/assets/e15d869f-ed43-4e8b-88c2-f203ecf0d315)
-
 </details>
+
 
 
 
@@ -398,7 +398,7 @@ A simulation environment (iverilog, gtkwave) is set up and the functional simula
 
 
 
-</details>
+
 
 
 
