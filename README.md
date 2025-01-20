@@ -144,7 +144,7 @@ Used for jump operations.
 <summary><h3>Machine Code:<h3></summary>
 <br>
   
-![obj_dump_O1 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%203/obj_dump_O1.png)
+![3task](https://github.com/user-attachments/assets/54eb5c50-4887-4453-b577-598d608dad1a)
 
 ### **1. Instruction: `addi sp, sp, -32`**
 - **Machine Code**: `fe010113`
