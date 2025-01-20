@@ -297,3 +297,72 @@ rd: 01111 (t0 = x17)
 
 
 
+<details>
+<summary><h2>Task 4<h2></summary>
+<br>
+A simulation environment (iverilog, gtkwave) is set up and the functional simulation of the RISC-V core Verilog netlist and testbench is run and the functional correctness of the core is checked by observing the output waveform.  
+
+<h4>Verilog netlist code: </h4>  
+
+[Verilog netlist code](https://github.com/Tech-Hades/samsung-riscv/blob/main/Task%204/Verilog%20netlist%20code)
+
+<h4>Verilog testbench code: </h4>  
+
+  [Verilog testbench code](https://github.com/Tech-Hades/samsung-riscv/blob/main/Task%204/Verilog%20testbench%20code)
+
+<h4>GTKWave analyzer: </h4>  
+
+![2 task4](https://github.com/user-attachments/assets/3276e64a-fc93-430a-879e-89f061404208)
+
+
+### Output Waveforms
+
+### **1. Instruction: `ADD R6, R2, R1`**  
+![task4 123](https://github.com/user-attachments/assets/f72d1b67-3a9c-44a1-b497-d0e2675158e7)
+
+
+### **2. Instruction: `SUB R7, R1, R2`**  
+![task4 13-1](https://github.com/user-attachments/assets/deedf05f-7ae9-4607-849e-3581cfd3503e)
+
+
+
+### **3. Instruction: `AND R8, R1, R3`**  
+![task4 251](https://github.com/user-attachments/assets/4f5be13b-8115-4bf8-bb46-c61177d5d24d)
+
+
+### **4. Instruction: `OR R9, R2, R5`**  
+![task4 147](https://github.com/user-attachments/assets/b2f9a555-381a-421e-abc7-6a0e87c94d2c)
+
+
+
+### **5. Instruction: `XOR R10, R1, R4`**  
+![task4 245](https://github.com/user-attachments/assets/e4c165eb-a021-4240-a5a2-7a0a592be26a)
+
+
+
+### **6. Instruction: `SLT R1, R2, R4`**  
+![task4 451](https://github.com/user-attachments/assets/eeb4fc33-600a-43e5-b02f-1963a6c90385)
+
+
+
+### **7. Instruction: `ADDI R12, R4, 5`**  
+![task4 1229](https://github.com/user-attachments/assets/1f473649-7e26-4fd8-be11-6910c91d4d56)
+
+
+### **8. Instruction: `BEQ R0, R0, 15`**  
+![task4 25 11](https://github.com/user-attachments/assets/26408669-726b-4142-b209-b8bfe7b427b7)
+
+
+
+### **9. Instruction: `BNE R0, R1, 20`**  
+![task4 4 27](https://github.com/user-attachments/assets/0e35cf92-8acd-4d56-86a9-80505366b94d)
+
+
+
+### **10. Instruction: `SLL R15, R1, R2`**  
+![task4 0 xx 3](https://github.com/user-attachments/assets/e5e1d5ed-bfce-4999-bb2a-aa97a7b681bb)
+
+
+
+
+
