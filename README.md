@@ -1,5 +1,5 @@
 # Samsung-riscv
-This is a VSD-Samsung-RISCV-Program. The instructor for this internship is Kunal Ghosh Sir.
+Documenting my ongoing journey in the VSD-Samsung RISC-V Talent Development Program under the guidance of Kunal Ghosh Sir.
 
 # Basic Details
 Name: Vaibhavi Venkatesh  
