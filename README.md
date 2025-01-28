@@ -422,8 +422,7 @@ This project aims to design and implement a 2-bit comparator using the VSDSquadr
 - **Resistors**
 
 ### Hardware Connections
-![pro](https://github.com/user-attachments/assets/c0a36a25-f0ff-4e71-9841-09520eeb3220)
-
+![vsdpro](https://github.com/user-attachments/assets/c26d27b9-b34c-4103-81ae-e07d888cd77e)
 
 
 ### Pin Configuration
