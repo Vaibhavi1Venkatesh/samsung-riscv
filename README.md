@@ -462,7 +462,7 @@ This project aims to design and implement a 2-bit comparator using the VSDSquadr
 ### C Code for 2-bit Comparator
 This is the code to be uploaded to the VSDSquadron Mini Board.
 
-```c
+
 #include <ch32v00x.h>
 #include <debug.h>
 #include<stdio.h>
@@ -519,7 +519,7 @@ int main(void) {
     return 0;
 }
 
-c```
+
 </details>
 
 <details>
