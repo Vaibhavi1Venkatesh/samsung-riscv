@@ -523,6 +523,10 @@ int main(void) {
 </details>
 
 <details>
+<summary><h2>Task 6<h2></summary>
+<br>
+<h2>SmartBitComp: A 2-Bit Digital Comparator Using VSD Squadron Mini Board</h2>
+
 ## Video link 
 [Watch the demo video](https://drive.google.com/file/d/1wr7s27CVykZ6kW5hA_j6HbXZJ8SNijDc/view?usp=drivesdk)
 
