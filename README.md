@@ -518,22 +518,9 @@ int main(void) {
     
     return 0;
 }
-</details>
 
-<details>
-<summary><h2>Task 6<h2></summary>
-<br>
-<h2>SmartBitComp: A 2-Bit Digital Comparator Using VSD Squadron Mini Board</h2>
 
-## Video link
-[Watch the demo video](https://drive.google.com/file/d/1wr7s27CVykZ6kW5hA_j6HbXZJ8SNijDc/view?usp=drivesdk)
 
-## Applications
 
-- **Digital Systems**: Used in microprocessors and digital logic circuits for comparison operations.  
-- **Embedded Systems**: Helps in decision-making circuits for embedded applications.  
-- **Arithmetic & Logic Units (ALUs)**: A fundamental component in ALUs for binary number comparisons.  
-- **Error Detection**: Used in data verification systems to compare transmitted and received data.  
-- **Automation & Robotics**: Plays a role in control systems where logical decisions are required.
 
-</details>
+
